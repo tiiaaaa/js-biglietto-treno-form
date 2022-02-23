@@ -27,16 +27,30 @@
                         <div class="col-12">
                             <div class="row text-center">
                                 <div class="col-4">
-                                    <h5 class="mb-3">Nome e Cognome</h5>
-                                    <input type="text" placeholder="Name and Surname">
+                                    <form action="" method="get" class="form-example">
+                                        <div class="form-example">
+                                            <label class="mb-3" for="name">Nome e Cognome: </label>
+                                            <input type="text" name="name" id="name">
+                                        </div>
+                                    </form>
                                 </div>
+
                                 <div class="col-4">
-                                    <h5 class="mb-3">km da percorrere</h5>
-                                    <input type="text" placeholder="Name and Surname">
+                                    <form action="" method="get" class="form-example">
+                                        <div class="form-example">
+                                            <label class="mb-3" for="name">Km da percorrere: </label>
+                                            <input type="text" name="distance" id="distance">
+                                        </div>
+                                    </form>
                                 </div>
+
                                 <div class="col-4">
-                                    <h5 class="mb-3">Fascia d'età</h5>
-                                    <input type="text" placeholder="Name and Surname">
+                                    <form action="" method="get" class="form-example">
+                                        <div class="form-example">
+                                            <label class="mb-3" for="name">Fascia d'età:</label>
+                                            <input type="text" name="age" id="age">
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -56,6 +70,43 @@
             <section class="row">
                 <div class="col-12 text-center">
                     <h1 class="text-uppercase">il tuo biglietto</h1>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="text-uppercase">dettagli passeggeri</h4>
+                        </div>
+                        <div class="col-12 border border-dark">
+                            <div class="row">
+
+                                <div class="col-3">
+                                    <h5 class="text-uppercase fw-bold">nome passeggero</h5>
+
+                                    <p id="passenger-name"></p>
+                                </div>
+
+                                <div class="col-3">
+                                    <p class="fw-bold">Offerta</p>
+
+                                    <p id="tiket-type"></p>
+                                </div>
+
+                                <div class="col-2">
+                                    <p class="fw-bold">Carrozza</p>
+                                </div>
+                                
+                                <div class="col-2">
+                                    <p class="fw-bold">Codice CP</p>
+                                </div>
+
+                                <div class="col-2">
+                                    <p class="fw-bold">Costo biglietto</p>
+
+                                    <p id="tiket-price"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
